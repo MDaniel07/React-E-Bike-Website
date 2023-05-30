@@ -1,0 +1,55 @@
+
+
+ .battery {
+  position: relative;
+  bottom:250px;
+  left: 670px;
+  
+  width: 230px;
+  border: 10px solid white;
+  height: 100px;
+  box-shadow:0 0 19px black;
+  border-radius: 15px;
+}
+
+.battery:before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  height: 68px;
+  background-color: white;
+  border-radius: 5px;
+  animation: fill 5s linear forwards 10;
+  animation-delay: 2s;
+}
+
+.battery:after {
+  content: "";
+  position: absolute;
+  right: -30px;
+  top: 18px;
+  width: 15px;
+  height: 50px;
+  background-color: white;
+  border-bottom-right-radius: 90px;
+  border-top-right-radius: 90px;
+}
+
+@keyframes fill {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 24%;
+  }
+  50% {
+    width: 48%;
+  }
+  75% {
+    width: 72%;
+  }
+  100% {
+    width: 96%;
+  }
+}
