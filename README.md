@@ -69,7 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
+Demo-https://ebike-website-2023.netlify.app
 
 
 https://github.com/MDaniel07/React-E-Bike-Website/assets/127615063/4520e2b6-5f3d-4c68-af49-936ada17908a
